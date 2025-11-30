@@ -205,10 +205,10 @@ A final consolidated Bug Report is included.
 
 👥 Team Members
 
-Abdulrahman Emad Fathy (Team Leader)
-Ammer Emad
-Ali Ahmed Fouad
-Ziad Ashraf
+Abdulrahman Emad Fathy (Team Leader) ,
+Ammer Emad ,
+Ali Ahmed Fouad ,
+Ziad Ashraf ,
 
 📌 Conclusion
 This project reflects the complete testing lifecycle applied on a real e-commerce platform (OpenCart), demonstrating strong understanding of software testing principles across manual, automation, API, and database testing.
