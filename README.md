@@ -1,217 +1,114 @@
-🎓 Graduation Project – Software Testing (DEPI – Digital Egypt Pioneers Initiative)
-Team 5 – Software Testing Track
-Project Under Test: OpenCart Website
-📌 Project Overview
+# OpenCart E-Commerce QA Project
 
-This repository contains the complete graduation project of Team 5 – Software Testing Track as part of the Digital Egypt Pioneers Initiative (DEPI).
-The project applies full software testing lifecycle activities on the OpenCart E-Commerce Website, including:
+## Overview
 
-Manual Testing
+Comprehensive QA project conducted on the OpenCart E-Commerce platform covering Manual Testing, Automation Testing, API Testing, and Database Testing.
 
-Automation Testing (Selenium + Cucumber - BDD)
+As Team Leader, I participated in planning, execution, defect management, and automation framework implementation.
 
-API Testing
+---
 
-Database Testing
+## Technologies Used
 
-Test Planning & Documentation
+- Java
+- Selenium WebDriver
+- Cucumber BDD
+- TestNG
+- Maven
+- Page Object Model (POM)
+- Postman
+- SQL Server
+- Jira
+- Git & GitHub
 
-JIRA Bug Tracking
+---
 
-Test Case Design & Execution
+## Testing Activities
 
-This project demonstrates real-world testing skills required for QA & Software Testing roles.
+### Manual Testing
 
-🎯 Objectives
+- Test Planning
+- Test Scenario Design
+- Test Case Design
+- Functional Testing
+- Regression Testing
+- Smoke Testing
+- Bug Reporting
 
-Analyze OpenCart system requirements
+### Automation Testing
 
-Prepare full test documentation (Test Plan, Test Scenarios, Test Cases)
+Implemented a Selenium-Cucumber framework using:
 
-Perform manual functional and non-functional testing
+- Page Object Model (POM)
+- Feature Files
+- Step Definitions
+- Hooks
+- Test Runners
+- Assertions
+- Screenshots on Failure
 
-Automate critical flows using Selenium WebDriver
+### Automated Scenarios
 
-Apply BDD framework using Cucumber
+- User Registration
+- User Login
+- Product Search
+- Add to Cart
+- Checkout
+- Logout
 
-Test API endpoints using Postman
+### API Testing
 
-Validate backend using SQL database queries
+Performed API validation using Postman:
 
-Track defects using JIRA
+- GET Requests
+- POST Requests
+- PUT Requests
+- DELETE Requests
+- Status Code Validation
+- Response Validation
+- Authentication Testing
 
-Prepare final consolidated Bug Report & Test Execution Summary
+### Database Testing
 
-🛠 Tools & Technologies
-Category	Tools Used
-Manual Testing	Test Scenarios, Test Cases, Excel
-Automation Testing	Selenium WebDriver, Java/Python, TestNG/JUnit, Cucumber
-API Testing	Postman (Collections & Environments)
-Database Testing	MySQL / SQL Queries
+Validated backend data using SQL:
 
-🏗 Project Structure:
-GraduationProject_DEPI_SoftwareTesting/
-│
-├── Manual-Testing/
-│   ├── Test-Plan-Team5.docx
-│   ├── Test-Cases.xlsx
-│   ├── Final-Bug-Report.xlsx
-│   └── Test-Execution-Results/
-│
-├── Automation/
-│   ├── SeleniumProject/
-│   │   ├── src/
-│   │   ├── pom.xml or requirements.txt
-│   │   └── Test Scripts
-│   └── CucumberProject/
-│       ├── Features/
-│       ├── StepDefinitions/
-│       └── Runner/
-│
-├── API-Testing/
-│   ├── Postman-Collection.json
-│   └── Postman-Environment.json
-│
-├── Database-Testing/
-│   └── SQL-Queries-Team5.sql
-│
-├── JIRA/
-│   └── Exported-Bugs-Team5.pdf
-│
-└── README.md
+- User Creation Validation
+- Order Validation
+- Product Inventory Validation
+- Data Integrity Checks
 
-🧪 Testing Scope
-✔ Manual Test Coverage
+---
 
-Registration
+## Key Achievements
 
-Login
+- Led a team of 4 members.
+- Automated 40+ test scenarios.
+- Executed API testing for multiple endpoints.
+- Performed backend validation using SQL queries.
+- Reported and tracked defects using Jira.
 
-Add to Cart
+---
 
-Checkout
+## Project Structure
 
-Search
+src/
+├── pages/
+├── stepDefinitions/
+├── runners/
+├── hooks/
+├── utilities/
 
-Wishlist
+features/
+├── login.feature
+├── registration.feature
+├── cart.feature
 
-Product details page
+pom.xml
 
-Admin portal testing
+---
 
-Negative testing
+## Author
 
-Boundary values
+Abdulrahman Emad Fathy
 
-Usability testing
-
-🤖 Automation Testing
-Tools: Selenium WebDriver + Cucumber
-Framework Includes:
-
-Page Object Model (POM)
-
-BDD Feature Files
-
-Step Definitions
-
-Hooks
-
-Test Runner
-
-Assertions
-
-Screenshots on failure
-
-Automated Scenarios
-
-User registration
-
-User login
-
-Add item to cart
-
-Apply discount code
-
-Checkout process
-
-Logout
-
-🌐 API Testing
-
-Performed using Postman, including:
-
-Authentication tests
-
-GET / POST / PUT / DELETE requests
-
-JSON schema validation
-
-Status code validation
-
-Response time analysis
-
-🗄 Database Testing
-
-SQL queries to validate:
-
-User creation
-
-Order creation & update
-
-Product inventory
-
-Transaction logs
-
-Data integrity checks
-
-🚨 Bug Tracking (JIRA)
-
-Created Epics, Stories, Tasks
-
-Logged bugs with:
-
-Steps to reproduce
-
-Expected vs. actual results
-
-Environment
-
-Severity & Priority
-
-Attachments (screenshots / videos)
-
-A final consolidated Bug Report is included.
-
-📊 Project Deliverables
-
-✔ Test Plan
-
-✔ Test Scenarios & Test Cases
-
-✔ Bug Report
-
-✔ Test Summary Report
-
-✔ Automation Test Scripts
-
-✔ API Test Collection
-
-✔ SQL Queries
-
-✔ JIRA Bug Export
-
-✔ Final Presentation (optional)
-
-👥 Team Members
-
-Abdulrahman Emad Fathy (Team Leader) ,
-Ammer Emad ,
-Ali Ahmed Fouad ,
-Ziad Ashraf ,
-
-📌 Conclusion
-This project reflects the complete testing lifecycle applied on a real e-commerce platform (OpenCart), demonstrating strong understanding of software testing principles across manual, automation, API, and database testing.
-
-Documentation	Test Plan, Bug Report, Test Case Sheets
-Collaboration	GitHub
+Junior QA Engineer | Manual Testing | Automation Testing | API Testing | Database Testing
