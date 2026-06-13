@@ -1,11 +1,11 @@
 # OpenCart E-Commerce Full-Cycle QA & Automation Project
 
-## 📌 Project Overview
+##  Project Overview
 This repository showcases a comprehensive, end-to-end QA Audit independently executed on the OpenCart E-Commerce platform. The project spans the entire Software Testing Life Cycle (STLC), including strategic test planning, manual execution, API validation, database integrity checks, and building a scalable UI Automation framework from scratch.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 * **Automation:** Java, Selenium WebDriver, Cucumber BDD, TestNG, Maven, Page Object Model (POM)
 * **API Testing:** Postman
 * **Database Testing:** MySQL / SQL Server
@@ -14,7 +14,7 @@ This repository showcases a comprehensive, end-to-end QA Audit independently exe
 
 ---
 
-## 🎯 Testing Phases & Artifacts
+##  Testing Phases & Artifacts
 
 ### 1. Test Planning & Strategy
 * Designed a thorough Test Plan defining the scope, environment configuration, test entry/exit criteria, and risk assessment for the E-Commerce platform.
@@ -40,7 +40,7 @@ This repository showcases a comprehensive, end-to-end QA Audit independently exe
 
 ---
 
-## 🔍 Automated Scenarios Covered
+##  Automated Scenarios Covered
 * Complete User Registration & Field Validation
 * User Login / Logout (Positive & Negative flows)
 * Dynamic Product Search & Filtering
@@ -49,7 +49,7 @@ This repository showcases a comprehensive, end-to-end QA Audit independently exe
 
 ---
 
-## 🚀 Key Achievements
+##  Key Achievements
 * Independently designed and executed the entire QA lifecycle for a complex E-Commerce platform.
 * Developed and optimized **40+ automated test scripts** with clean, maintainable code.
 * Uncovered critical functional and backend bugs through parallel manual and SQL database checks.
